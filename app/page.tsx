@@ -72,8 +72,8 @@ const backgroundStyle = {
 console.log("You found this? good job techie babe :) my fave curious person ever as always")
 
   return (
-    <div style={ backgroundStyle }>
-    <div style={sectionStyle}>
+    <div style={ backgroundStyle as  React.CSSProperties}>
+    <div style={sectionStyle as  React.CSSProperties}>
       <h1 style={{textDecoration: 'underline', fontWeight: 'bold'}}>I love</h1>
       <div>{saying}</div>
     </div>
