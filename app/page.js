@@ -49,7 +49,7 @@ const photos = [
 
 const date = new Date();
 const dayOfWeek = date.getDay()
-const saying: string = sayings[date.getDate()];
+const saying = sayings[date.getDate()];
 const background = photos[dayOfWeek]
 const sectionStyle = {
   display: 'flex',
@@ -72,8 +72,8 @@ const backgroundStyle = {
 console.log("You found this? good job techie babe :) my fave curious person ever as always")
 
   return (
-    <div style={ backgroundStyle as  React.CSSProperties}>
-    <div style={sectionStyle as  React.CSSProperties}>
+    <div style={ backgroundStyle }>
+    <div style={sectionStyle }>
       <h1 style={{textDecoration: 'underline', fontWeight: 'bold'}}>I love</h1>
       <div>{saying}</div>
     </div>
