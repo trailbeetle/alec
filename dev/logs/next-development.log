@@ -1,0 +1,1792 @@
+[00:00:00.652] Server  LOG      ✓ Ready in 483ms
+[00:00:09.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.308] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:09.069] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:16.350] Browser ERROR   ./app/page.tsx:7:5
+Parsing ecmascript source code failed
+   5 |     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+   6 |       <h1
+>  7 |     </div>
+     |     ^
+   8 |   );
+   9 | }
+  10 |
+
+Expression expected
+[00:01:16.351] Browser ERROR   ./app/page.tsx:7:6
+Parsing ecmascript source code failed
+   5 |     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+   6 |       <h1
+>  7 |     </div>
+     |      ^^^^^
+   8 |   );
+   9 | }
+  10 |
+
+Unterminated regexp literal
+[00:01:21.985] Browser ERROR   ./app/page.tsx:5:10
+Parsing ecmascript source code failed
+  3 | export default function Home() {
+  4 |   return (
+> 5 |     <div ">
+    |          ^^
+  6 |       <h1>okay hi</h1>
+  7 |     </div>
+  8 |   );
+
+Unterminated string constant
+[00:01:42.909] Server  LOG      ✓ Compiled in 78ms
+[00:01:52.541] Server  LOG      ✓ Compiled in 39ms
+[00:01:55.193] Server  LOG      ✓ Compiled in 43ms
+[00:01:57.522] Server  LOG      ✓ Compiled in 34ms
+[25:44:44.496] Browser ERROR   ./app/page.tsx:3:14
+Parsing ecmascript source code failed
+  1 | import Image from "next/image";
+  2 |
+> 3 | export const function Home() {
+    |              ^^^^^^^^
+  4 |
+  5 |   return (
+  6 |     <div>
+
+Expected ident
+[25:44:48.495] Browser ERROR   ./app/page.tsx:3:14
+Parsing ecmascript source code failed
+  1 | import Image from "next/image";
+  2 |
+> 3 | export const Home() {
+    |              ^^^^
+  4 |
+  5 |   return (
+  6 |     <div>
+
+'const' declarations must be initialized
+[25:44:48.496] Browser ERROR   ./app/page.tsx:3:18
+Parsing ecmascript source code failed
+  1 | import Image from "next/image";
+  2 |
+> 3 | export const Home() {
+    |                  ^
+  4 |
+  5 |   return (
+  6 |     <div>
+
+Expected a semicolon
+[25:44:48.496] Browser ERROR   ./app/page.tsx:5:3
+Parsing ecmascript source code failed
+   3 | export const Home() {
+   4 |
+>  5 |   return (
+     |   ^^^^^^^^
+>  6 |     <div>
+     | ^^^^^^^^^
+>  7 |       <h1>okay hi</h1>
+     | ^^^^^^^^^
+>  8 |     </div>
+     | ^^^^^^^^^
+>  9 |   );
+     | ^^^^^
+  10 | }
+  11 |
+
+Return statement is not allowed here
+[25:44:52.118] Server  LOG      ✓ Compiled in 22ms
+[25:44:52.442] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:44:52.577] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:44:53.389] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:44:53.580] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:44:53.907] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[25:44:56.549] Server  LOG      ✓ Compiled in 41ms
+[25:44:58.578] Server  LOG      ✓ Compiled in 22ms
+[25:45:03.660] Server  LOG      ✓ Compiled in 25ms
+[25:45:09.951] Server  LOG      ✓ Compiled in 26ms
+[25:45:11.496] Browser ERROR   ./app/page.tsx:32:13
+Parsing ecmascript source code failed
+  30 |     <div>
+  31 |       <h1>I love:</h1>
+> 32 |       <div>{</div>
+     |             ^
+  33 |     </div>
+  34 |   );
+  35 | }
+
+Expression expected
+[25:45:11.496] Browser ERROR   ./app/page.tsx:32:14
+Parsing ecmascript source code failed
+  30 |     <div>
+  31 |       <h1>I love:</h1>
+> 32 |       <div>{</div>
+     |              ^^^^^
+  33 |     </div>
+  34 |   );
+  35 | }
+
+Unterminated regexp literal
+[25:45:14.056] Server  LOG      ✓ Compiled in 14ms
+[25:45:14.387] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:45:14.528] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:45:14.793] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[25:45:19.506] Browser ERROR   ./app/page.tsx:31:3
+Parsing ecmascript source code failed
+  29 |   const saying = 
+  30 |
+> 31 |   return (
+     |   ^^^^^^
+  32 |     <div>
+  33 |       <h1>I love:</h1>
+  34 |       <div>{saying}</div>
+
+Expression expected
+[25:45:21.690] Server  LOG      ✓ Compiled in 22ms
+[25:45:22.001] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:45:22.155] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:45:22.445] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[25:45:24.498] Browser ERROR   ./app/page.tsx:31:3
+Parsing ecmascript source code failed
+  29 |   const saying = 
+  30 |
+> 31 |   return (
+     |   ^^^^^^
+  32 |     <div>
+  33 |       <h1>I love:</h1>
+  34 |       <div>{saying}</div>
+
+Expression expected
+[25:47:50.497] Browser ERROR   ./app/page.tsx:31:3
+Parsing ecmascript source code failed
+  29 |   const saying = 
+  30 |
+> 31 |   return (
+     |   ^^^^^^
+  32 |     <div>
+  33 |       <h1>I love:</h1>
+  34 |       <div>{saying}</div>
+
+Expression expected
+[25:47:52.498] Browser ERROR   ./app/page.tsx:32:3
+Parsing ecmascript source code failed
+  30 |   const saying = 
+  31 |
+> 32 |   return (
+     |   ^^^^^^
+  33 |     <div>
+  34 |       <h1>I love:</h1>
+  35 |       <div>{saying}</div>
+
+Expression expected
+[25:48:01.496] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <h1>I love:</h1>
+  39 |       <div>{saying}</div>
+
+Expression expected
+[25:48:21.501] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <h1>I love:</h1>
+  39 |       <div>{saying}</div>
+
+Expression expected
+[25:48:24.497] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <h1>I love:</h1>
+  39 |       <div>{saying}</div>
+
+Expression expected
+[25:48:31.496] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <h1>I love:</h1>
+  39 |       <div>{saying}</div>
+
+Expression expected
+[25:48:47.495] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <h1>I love:</h1>
+  39 |       <div>{saying}</div>
+
+Expression expected
+[25:48:49.496] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <h1>I love:</h1>
+  39 |       <div>{saying}</div>
+
+Expression expected
+[25:48:55.496] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <h1>I love:</h1>
+  39 |       <div>{saying}</div>
+
+Expression expected
+[25:48:56.496] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <h1>I love:</h1>
+  39 |       <div>{saying}</div>
+
+Expression expected
+[25:50:28.497] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       {console.log(saying)}
+  39 |       <h1>I love:</h1>
+
+Expression expected
+[25:50:33.496] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <div></div>{console.log(saying)}
+  39 |       <h1>I love:</h1>
+
+Expression expected
+[25:50:37.497] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <div>{console.log(saying)}
+  39 |       <h1>I love:</h1>
+
+Expression expected
+[25:50:38.496] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <div>{console.log(saying)}</div>{
+  39 |       <h1>I love:</h1>
+
+Expression expected
+[25:50:40.496] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       {console.log(saying)}
+  39 |       <h1>I love:</h1>
+
+Expression expected
+[25:50:44.495] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       <h1>I love:</h1>
+  39 |       <div>{saying}</div>
+
+Expression expected
+[25:50:49.497] Browser ERROR   ./app/page.tsx:36:3
+Parsing ecmascript source code failed
+  34 |   const saying = 
+  35 |
+> 36 |   return (
+     |   ^^^^^^
+  37 |     <div>
+  38 |       {console.log(saying)}
+  39 |       <h1>I love:</h1>
+
+Expression expected
+[25:50:52.285] Server  LOG      ✓ Compiled in 79ms
+[25:50:52.755] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:50:52.927] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:50:53.202] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[25:50:58.998] Server  LOG      ✓ Compiled in 12ms
+[25:51:02.466] Server  LOG      ✓ Compiled in 14ms
+[25:51:09.493] Server  LOG      ✓ Compiled in 11ms
+[25:51:54.496] Browser ERROR   ./app/page.tsx:34:9
+Ecmascript file had an error
+  32 | ]
+  33 |   let saying: String
+> 34 |   const saying = new Date().toDateString
+     |         ^^^^^^
+  35 |   console.log(saying)
+  36 |
+  37 |   return (
+
+the name `saying` is defined multiple times
+[25:51:58.843] Server  LOG      ✓ Compiled in 11ms
+[25:51:59.162] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:51:59.301] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:51:59.550] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[25:52:03.950] Server  LOG      ✓ Compiled in 33ms
+[25:52:18.078] Server  LOG      ✓ Compiled in 39ms
+[25:52:25.383] Server  LOG      ✓ Compiled in 20ms
+[25:52:40.698] Server  LOG      ✓ Compiled in 53ms
+[25:53:12.479] Server  LOG      ✓ Compiled in 104ms
+[25:53:21.196] Server  LOG      ✓ Compiled in 62ms
+[25:53:30.996] Server  LOG      ✓ Compiled in 16ms
+[25:54:00.324] Server  LOG      ✓ Compiled in 35ms
+[25:54:03.332] Server  LOG      ✓ Compiled in 11ms
+[25:54:09.425] Server  LOG      ✓ Compiled in 16ms
+[25:55:06.794] Server  LOG      ✓ Compiled in 28ms
+[25:55:16.145] Server  LOG      ✓ Compiled in 12ms
+[25:55:25.898] Server  LOG      ✓ Compiled in 10ms
+[25:55:48.808] Server  LOG      ✓ Compiled in 14ms
+[25:55:50.544] Server  LOG      ✓ Compiled in 12ms
+[25:55:55.635] Server  LOG      ✓ Compiled in 15ms
+[25:56:01.847] Server  LOG      ✓ Compiled in 14ms
+[25:56:06.498] Browser ERROR   ./app/page.tsx:34:3
+Parsing ecmascript source code failed
+  32 |   "the way you dance so joyously and freely",
+  33 |   "the way you make me feel free and unencumbered"
+> 34 |   "the way i feel "
+     |   ^^^^^^^^^^^^^^^^^
+  35 | ]
+  36 | const date = new Date().getDate();
+  37 | const saying: string = date.toString();
+
+Expected ',', got 'string literal (the way i feel , "the way i feel ")'
+[25:56:09.557] Server  LOG      ✓ Compiled in 12ms
+[25:56:09.982] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:56:10.174] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:56:10.477] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[25:56:16.516] Server  LOG      ✓ Compiled in 14ms
+[25:56:26.463] Server  LOG      ✓ Compiled in 13ms
+[25:56:44.429] Server  LOG      ✓ Compiled in 21ms
+[25:56:46.496] Browser ERROR   ./app/page.tsx:18:3
+Parsing ecmascript source code failed
+  16 |   "the way you make me feel free and unencumbered",
+  17 |   "the way i feel great after seeing you, even if it was only for a little while"
+> 18 |   "the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)",
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 |   "the way your hair curls after a shower",
+  20 |   "the way you take care of your skin and your body, because you are embodied and care about how you feel",
+  21 |   "your organization style that mirrors mine (in ideal circumstances) that makes me confident we would be a good match living together",
+
+Expected ',', got 'string literal (the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time), "the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)")'
+[25:56:47.982] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:56:48.125] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:56:48.350] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[25:56:49.439] Server  LOG      ✓ Compiled in 19ms
+[25:57:22.819] Server  LOG      ✓ Compiled in 12ms
+[25:57:44.496] Browser ERROR   ./app/page.tsx:35:3
+Parsing ecmascript source code failed
+  33 |   "your perfect blend of challenging me while still validating and soothing me if im having trouble with an area of my life",
+  34 |   "your constant confidence in me and my abilities",
+> 35 |   "when you do that little move that imitates the
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  36 | ]
+  37 | const date = new Date().getDate();
+  38 | const saying: string = date.toString();
+
+Unterminated string constant
+[25:57:53.496] Browser ERROR   ./app/page.tsx:35:3
+Parsing ecmascript source code failed
+  33 |   "your perfect blend of challenging me while still validating and soothing me if im having trouble with an area of my life",
+  34 |   "your constant confidence in me and my abilities",
+> 35 |   "when you do that little move that imitates the shy/pleased emoji'
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  36 | ]
+  37 | const date = new Date().getDate();
+  38 | const saying: string = date.toString();
+
+Unterminated string constant
+[25:57:54.709] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:57:54.899] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:57:55.134] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[25:58:11.631] Server  LOG      ✓ Compiled in 13ms
+[25:58:14.496] Browser ERROR   ./app/page.tsx:6:3
+Parsing ecmascript source code failed
+  4 | const sayings = [
+  5 |   "when you do that little move that imitates the shy/pleased emoji"
+> 6 |   "the way you start to randomly massage my arms or neck when we are just sitting around doing nothing otherwise",
+    |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |   "your music taste",
+  8 |   "your gentle softness, mentally and physically  ",
+  9 |   "the way you work a hard hard job and rarely complain about it, even when youre tired",
+
+Expected ',', got 'string literal (the way you start to randomly massage my arms or neck when we are just sitting around doing nothing otherwise, "the way you start to randomly massage my arms or neck when we are just sitting around doing nothing otherwise")'
+[25:58:15.842] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:58:15.976] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:58:16.184] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[25:59:18.049] Server  LOG      ✓ Compiled in 12ms
+[25:59:50.805] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:59:50.965] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[25:59:51.211] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[26:00:02.498] Browser ERROR   ./app/page.tsx:3:14
+Parsing ecmascript source code failed
+  1 | import Image from "next/image";
+  2 |
+> 3 | export const function Home = () => {
+    |              ^^^^^^^^
+  4 | const sayings = [
+  5 |   "when you do that little move that imitates the shy/pleased emoji",
+  6 |   "the way you start to randomly massage my arms or neck when we are just sitting around doing nothing otherwise",
+
+Expected ident
+[26:00:06.496] Browser ERROR   ./app/page.tsx:3:14
+Parsing ecmascript source code failed
+  1 | import Image from "next/image";
+  2 |
+> 3 | export const function Home() => {
+    |              ^^^^^^^^
+  4 | const sayings = [
+  5 |   "when you do that little move that imitates the shy/pleased emoji",
+  6 |   "the way you start to randomly massage my arms or neck when we are just sitting around doing nothing otherwise",
+
+Expected ident
+[26:00:08.495] Browser ERROR   ./app/page.tsx:3:14
+Parsing ecmascript source code failed
+  1 | import Image from "next/image";
+  2 |
+> 3 | export const function Home() {
+    |              ^^^^^^^^
+  4 | const sayings = [
+  5 |   "when you do that little move that imitates the shy/pleased emoji",
+  6 |   "the way you start to randomly massage my arms or neck when we are just sitting around doing nothing otherwise",
+
+Expected ident
+[26:00:11.862] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[26:00:12.000] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[26:00:12.238] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/page"
+[26:00:28.975] Server  LOG     18
+[26:00:29.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:00:50.971] Server  ERROR    ⨯ ReferenceError: sayingsp is not defined
+[26:00:51.105] Browser ERROR   uncaughtError: ReferenceError: sayingsp is not defined
+[26:00:55.333] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:00:55.607] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:08:50.342] Server  LOG      ✓ Compiled in 262ms
+[26:13:37.497] Browser ERROR   ./app/page.tsx:39:1
+Parsing ecmascript source code failed
+  37 |
+  38 | const 
+> 39 | const date = new Date().getDate();
+     | ^^^^^
+  40 | const saying: string = sayings[date];
+  41 |
+  42 |   console.log(saying)
+
+Expected ident
+[26:13:42.496] Browser ERROR   ./app/page.tsx:38:7
+Parsing ecmascript source code failed
+  36 | ]
+  37 |
+> 38 | const photos
+     |       ^^^^^^
+  39 | const date = new Date().getDate();
+  40 | const saying: string = sayings[date];
+  41 |
+
+'const' declarations must be initialized
+[26:13:47.496] Browser ERROR   ./app/page.tsx:38:7
+Parsing ecmascript source code failed
+  36 | ]
+  37 |
+> 38 | const photos: string
+     |       ^^^^^^^^^^^^^^
+  39 | const date = new Date().getDate();
+  40 | const saying: string = sayings[date];
+  41 |
+
+'const' declarations must be initialized
+[26:13:52.496] Browser ERROR   ./app/page.tsx:38:7
+Parsing ecmascript source code failed
+  36 | ]
+  37 |
+> 38 | const photos: String
+     |       ^^^^^^^^^^^^^^
+  39 | photos = 
+  40 | const date = new Date().getDate();
+  41 | const saying: string = sayings[date];
+
+'const' declarations must be initialized
+[26:13:55.496] Browser ERROR   ./app/page.tsx:38:7
+Parsing ecmascript source code failed
+  36 | ]
+  37 |
+> 38 | const photos: String
+     |       ^^^^^^^^^^^^^^
+  39 | photos = [
+  40 |   ""
+  41 | ]
+
+'const' declarations must be initialized
+[26:13:57.496] Browser ERROR   ./app/page.tsx:38:7
+Parsing ecmascript source code failed
+  36 | ]
+  37 |
+> 38 | const photos: Array
+     |       ^^^^^^^^^^^^^
+  39 | photos = [
+  40 |   ""
+  41 | ]
+
+'const' declarations must be initialized
+[26:14:08.495] Browser ERROR   ./app/page.tsx:38:7
+Parsing ecmascript source code failed
+  36 | ]
+  37 |
+> 38 | const photos: Array<String>
+     |       ^^^^^^^^^^^^^^^^^^^^^
+  39 | photos = [
+  40 |   ""
+  41 | ]
+
+'const' declarations must be initialized
+[26:14:20.380] Server  ERROR    ⨯ ReferenceError: photos is not defined
+[26:14:21.497] Browser ERROR   uncaughtError: ReferenceError: photos is not defined
+[26:14:22.264] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:14:22.659] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:14:32.257] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:14:36.726] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:14:40.747] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:14:44.753] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:14:48.065] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:14:53.788] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:14:57.629] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:15:02.561] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:15:18.496] Browser ERROR   ./app/page.tsx:48:7
+Parsing ecmascript source code failed
+  46 | ]
+  47 | const date = new Date().getDate();
+> 48 | const dayOfWee
+     |       ^^^^^^^^
+  49 | const saying: string = sayings[date];
+  50 |
+  51 |   console.log(saying)
+
+'const' declarations must be initialized
+[26:15:37.043] Server  LOG      ✓ Compiled in 62ms
+[26:15:37.192] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:15:37.812] Server  LOG      ✓ Compiled in 24ms
+[26:15:37.923] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:15:44.531] Server  LOG     undefined
+[26:15:45.675] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:15:48.729] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:15:50.482] Server  ERROR    ⨯ TypeError: date.getDayOfWeek is not a function
+[26:15:51.497] Browser ERROR   uncaughtError: TypeError: date.getDayOfWeek is not a function
+[26:16:16.170] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:16:16.541] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:16:51.689] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:16:52.503] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:16:53.462] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:16:53.800] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:16:54.502] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:17:02.342] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:17:02.625] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:17:03.500] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:17:05.300] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:17:05.598] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:17:06.497] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:17:08.151] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:17:08.408] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:17:09.496] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:17:11.989] Server  LOG     the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)
+[26:17:11.992] Server  ERROR    ⨯ ReferenceError: sectionStyle is not defined
+[26:17:12.291] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:17:12.496] Browser ERROR   uncaughtError: ReferenceError: sectionStyle is not defined
+[26:17:14.188] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:17:14.440] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:17:15.501] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:17:15.637] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:17:15.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:17:16.502] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:17:29.128] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:17:29.425] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:17:30.499] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:17:35.337] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:17:35.640] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:17:36.499] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:17:39.341] Server  LOG      ✓ Compiled in 92ms
+[26:17:39.429] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:17:39.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:17:40.499] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:17:52.252] Server  LOG      ✓ Compiled in 39ms
+[26:17:52.348] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:17:52.703] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:17:52.703] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:17:59.495] Browser ERROR   ./app/page.tsx:57:37
+Parsing ecmascript source code failed
+  55 |   width: "100%",
+  56 |   height: "400px",
+> 57 |   backgroundImage: "url(" + { photos[] } + ")"
+     |                                     ^
+  58 | };
+  59 |
+  60 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Unexpected token `[`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+[26:18:02.495] Browser ERROR   ./app/page.tsx:57:37
+Parsing ecmascript source code failed
+  55 |   width: "100%",
+  56 |   height: "400px",
+> 57 |   backgroundImage: "url(" + { photos[dayOfWeek] } + ")"
+     |                                     ^
+  58 | };
+  59 |
+  60 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Unexpected token `[`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+[26:18:07.160] Server  LOG      ✓ Compiled in 24ms
+[26:18:07.214] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:18:07.532] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:18:08.502] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:18:17.496] Browser ERROR   ./app/page.tsx:55:1
+Parsing ecmascript source code failed
+  53 | const background = 
+  54 |
+> 55 | const sectionStyle = {
+     | ^^^^^
+  56 |   width: "100%",
+  57 |   height: "400px",
+  58 |   backgroundImage: "url(" + { Background } + ")"
+
+Expression expected
+[26:18:20.863] Server  LOG      ✓ Compiled in 52ms
+[26:18:20.969] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[26:18:21.325] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:18:21.496] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[26:18:24.050] Server  LOG      ✓ Compiled in 41ms
+[26:18:24.145] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:18:24.476] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:18:35.299] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:18:35.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:18:54.706] Browser ERROR   ./app/page.tsx:58:41
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   backgroundImage: "url(background } + ")"
+     |                                         ^
+  59 | };
+  60 |
+  61 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Expected ',', got ')'
+[26:18:57.525] Server  LOG      ✓ Compiled in 31ms
+[26:18:57.644] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:19:01.602] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:19:04.295] Browser ERROR   ./app/page.tsx:58:41
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   backgroundImage: "url(background } + ")"
+     |                                         ^
+  59 | };
+  60 |
+  61 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Expected ',', got ')'
+[26:19:06.621] Server  LOG      ✓ Compiled in 28ms
+[26:19:06.731] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:19:10.882] Browser ERROR   ./app/page.tsx:58:44
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   backgroundImage: "url( { background } + ")"
+     |                                            ^
+  59 | };
+  60 |
+  61 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Expected ',', got ')'
+[26:19:12.628] Server  LOG      ✓ Compiled in 29ms
+[26:19:12.648] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:19:15.733] Browser ERROR   ./app/page.tsx:58:20
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   backgroundImage: `url(" + { background } + ")"
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 59 | };
+     | ^^
+> 60 | 
+     | ^^
+> 61 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+     | ^^
+> 62 | 
+     | ^^
+> 63 |   return (
+     | ^^
+> 64 |     <div style={ sectionStyle }>
+     | ^^
+> 65 |       <h1>I love:</h1>
+     | ^^
+> 66 |       <div>{saying}</div>
+     | ^^
+> 67 |     </div>
+     | ^^
+> 68 |   );
+     | ^^
+> 69 | }
+     | ^^
+> 70 | 
+     | ^
+
+Unterminated template
+[26:19:17.051] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:19:20.732] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:19:23.270] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:19:24.523] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:20:00.461] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:20:04.951] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:20:05.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:20:38.309] Browser ERROR   ./app/page.tsx:59:3
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   backg
+> 59 |   backgroundImage: `url(${background})`
+     |   ^^^^^^^^^^^^^^^
+  60 | };
+  61 |
+  62 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Unexpected token `backgroundImage`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+[26:20:39.508] Browser ERROR   ./app/page.tsx:59:3
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   background
+> 59 |   backgroundImage: `url(${background})`
+     |   ^^^^^^^^^^^^^^^
+  60 | };
+  61 |
+  62 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Unexpected token `backgroundImage`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+[26:20:41.406] Server  LOG      ✓ Compiled in 18ms
+[26:20:41.450] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:20:57.519] Browser ERROR   ./app/page.tsx:59:18
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   color:
+> 59 |   backgroundImage: `url(${background})`
+     |                  ^
+  60 | };
+  61 |
+  62 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Expected ',', got ':'
+[26:21:01.212] Server  LOG      ✓ Compiled in 24ms
+[26:21:01.370] Server  ERROR    ⨯ ReferenceError: redirect is not defined
+[26:21:01.499] Browser ERROR   uncaughtError: ReferenceError: redirect is not defined
+[26:21:04.642] Browser ERROR   ./app/page.tsx:58:10
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   color: ,
+     |          ^
+  59 |   backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expression expected
+[26:21:07.053] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:21:07.345] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:21:09.100] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:21:10.486] Browser ERROR   ./app/page.tsx:58:10
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   color: ,
+     |          ^
+  59 |   backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expression expected
+[26:21:13.935] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__1222724e._.js from runtime for chunk server/app/page.js
+[26:21:14.003] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__1222724e._.js from runtime for chunk server/app/page.js
+[26:21:14.287] Browser ERROR   uncaughtError: Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__1222724e._.js from runtime for chunk server/app/page.js
+[26:21:15.938] Browser ERROR   ./app/page.tsx:59:18
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   color: //#endregion,
+> 59 |   backgroundImage: `url(${background})`
+     |                  ^
+  60 | };
+  61 |
+  62 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Expected ',', got ':'
+[26:21:45.497] Browser ERROR   ./app/page.tsx:58:10
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   color: ,
+     |          ^
+  59 |   backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expression expected
+[26:21:46.424] Server  LOG      ✓ Compiled in 28ms
+[26:21:46.563] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:21:47.113] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:21:49.495] Browser ERROR   ./app/page.tsx:58:11
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   color: #940909,
+     |           ^^^^^^
+  59 |   backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expected ident
+[26:22:05.496] Browser ERROR   ./app/page.tsx:58:19
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   background-color: #940909,
+     |                   ^
+  59 |   backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expected a semicolon
+[26:22:05.496] Browser ERROR   ./app/page.tsx:58:13
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   background-color: #940909,
+     |             ^
+  59 |   backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expression expected
+[26:22:05.496] Browser ERROR   ./app/page.tsx:64:3
+Parsing ecmascript source code failed
+  62 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+  63 |
+> 64 |   return (
+     |   ^^^^^^^^
+> 65 |     <div style={ sectionStyle }>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 66 |       <h1>I love:</h1>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 67 |       <div>{saying}</div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 68 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 69 |   );
+     | ^^^^^
+  70 | }
+  71 |
+
+Return statement is not allowed here
+[26:22:08.497] Browser ERROR   ./app/page.tsx:58:11
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   color: #940909,
+     |           ^^^^^^
+  59 |   backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expected ident
+[26:22:17.500] Browser ERROR   ./app/page.tsx:58:11
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   color: #940909,
+     |           ^^^^^^
+  59 |   // backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expected ident
+[26:22:25.497] Browser ERROR   ./app/page.tsx:58:22
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   color:hsl(0, 88.50%, 30.80%),
+     |                      ^
+  59 |   // backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expression expected
+[26:22:31.496] Browser ERROR   ./app/page.tsx:58:11
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   color: #940909,
+     |           ^^^^^^
+  59 |   // backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expected ident
+[26:22:40.497] Browser ERROR   ./app/page.tsx:58:11
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   color: #940909
+     |           ^^^^^^
+  59 |   // backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expected ident
+[26:23:31.497] Browser ERROR   ./app/page.tsx:60:1
+Parsing ecmascript source code failed
+  58 |   color: 
+  59 |   // backgroundImage: `url(${background})`
+> 60 | };
+     | ^
+  61 |
+  62 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+  63 |
+
+Expression expected
+[26:24:04.507] Browser ERROR   ./app/page.tsx:58:11
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   color: #940909
+     |           ^^^^^^
+  59 |   // backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expected ident
+[26:24:06.248] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:24:13.561] Browser ERROR   ./app/page.tsx:58:19
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   background-color: '#940909'
+     |                   ^
+  59 |   // backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expected a semicolon
+[26:24:13.561] Browser ERROR   ./app/page.tsx:58:13
+Parsing ecmascript source code failed
+  56 |   width: "100%",
+  57 |   height: "400px",
+> 58 |   background-color: '#940909'
+     |             ^
+  59 |   // backgroundImage: `url(${background})`
+  60 | };
+  61 |
+
+Expression expected
+[26:24:13.561] Browser ERROR   ./app/page.tsx:64:3
+Parsing ecmascript source code failed
+  62 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+  63 |
+> 64 |   return (
+     |   ^^^^^^^^
+> 65 |     <div style={ sectionStyle }>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 66 |       <h1>I love:</h1>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 67 |       <div>{saying}</div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 68 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 69 |   );
+     | ^^^^^
+  70 | }
+  71 |
+
+Return statement is not allowed here
+[26:24:17.197] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:24:20.617] Browser ERROR   ./app/page.tsx:59:3
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   color: '#940909'
+> 59 |   backgroundImage: `url(${background})`
+     |   ^^^^^^^^^^^^^^^
+  60 | };
+  61 |
+  62 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Expected ',', got 'backgroundImage'
+[26:24:24.379] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:25:42.387] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:25:59.269] Server  LOG     
+[26:25:59.269] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:26:02.123] Server  LOG     dino.png
+[26:26:02.124] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:26:20.511] Server  LOG     dino.png
+[26:26:20.512] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:26:20.833] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:29:19.489] Server  LOG     https://share.icloud.com/photos/070hrrDMLf32N1m0u0wYvtzpw
+[26:29:19.489] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:29:25.302] Server  LOG     https://share.icloud.com/photos/070hrrDMLf32N1m0u0wYvtzpw
+[26:29:25.302] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:29:25.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:31:17.905] Server  LOG     https://share.icloud.com/photos/070hrrDMLf32N1m0u0wYvtzpw
+[26:31:17.905] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:31:18.239] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:32:17.172] Server  LOG     data:image/jpeg;base64,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
+[26:32:17.172] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:33:18.497] Browser ERROR   ./app/page.tsx:60:20
+Parsing ecmascript source code failed
+  58 |   color: '#940909',
+  59 |   backgroundImage: `url(${background})`,
+> 60 |   background-repeat: 'no-repeat'
+     |                    ^
+  61 | };
+  62 |
+  63 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Expected a semicolon
+[26:33:18.497] Browser ERROR   ./app/page.tsx:60:13
+Parsing ecmascript source code failed
+  58 |   color: '#940909',
+  59 |   backgroundImage: `url(${background})`,
+> 60 |   background-repeat: 'no-repeat'
+     |             ^
+  61 | };
+  62 |
+  63 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Expression expected
+[26:33:18.497] Browser ERROR   ./app/page.tsx:65:3
+Parsing ecmascript source code failed
+  63 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+  64 |
+> 65 |   return (
+     |   ^^^^^^^^
+> 66 |     <div style={ sectionStyle }>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 67 |       <h1>I love:</h1>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 68 |       <div>{saying}</div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 69 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 70 |   );
+     | ^^^^^
+  71 | }
+  72 |
+
+Return statement is not allowed here
+[26:33:35.495] Browser ERROR   ./app/page.tsx:59:20
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   color: '#940909',
+> 59 |   background-repeat: 'no-repeat"
+     |                    ^
+  60 |   backgroundImage: `url(${background})`,
+  61 | };
+  62 |
+
+Expected a semicolon
+[26:33:35.496] Browser ERROR   ./app/page.tsx:59:13
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   color: '#940909',
+> 59 |   background-repeat: 'no-repeat"
+     |             ^
+  60 |   backgroundImage: `url(${background})`,
+  61 | };
+  62 |
+
+Expression expected
+[26:33:35.496] Browser ERROR   ./app/page.tsx:59:22
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   color: '#940909',
+> 59 |   background-repeat: 'no-repeat"
+     |                      ^^^^^^^^^^^
+  60 |   backgroundImage: `url(${background})`,
+  61 | };
+  62 |
+
+Unterminated string constant
+[26:33:37.496] Browser ERROR   ./app/page.tsx:59:20
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   color: '#940909',
+> 59 |   background-repeat: "no-repeat"
+     |                    ^
+  60 |   backgroundImage: `url(${background})`,
+  61 | };
+  62 |
+
+Expected a semicolon
+[26:33:37.496] Browser ERROR   ./app/page.tsx:59:13
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   color: '#940909',
+> 59 |   background-repeat: "no-repeat"
+     |             ^
+  60 |   backgroundImage: `url(${background})`,
+  61 | };
+  62 |
+
+Expression expected
+[26:33:39.495] Browser ERROR   ./app/page.tsx:59:20
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   color: '#940909',
+> 59 |   background-repeat: "no-repeat",
+     |                    ^
+  60 |   backgroundImage: `url(${background})`,
+  61 | };
+  62 |
+
+Expected a semicolon
+[26:33:39.495] Browser ERROR   ./app/page.tsx:59:13
+Parsing ecmascript source code failed
+  57 |   height: "400px",
+  58 |   color: '#940909',
+> 59 |   background-repeat: "no-repeat",
+     |             ^
+  60 |   backgroundImage: `url(${background})`,
+  61 | };
+  62 |
+
+Expression expected
+[26:34:29.614] Server  LOG     data:image/jpeg;base64,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
+[26:34:29.615] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:34:59.498] Browser ERROR   ./app/page.tsx:61:3
+Parsing ecmascript source code failed
+  59 |   backgroundRepeat: "no-repeat",
+  60 |   backgroundSize: ""
+> 61 |   backgroundImage: `url(${background})`,
+     |   ^^^^^^^^^^^^^^^
+  62 | };
+  63 |
+  64 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Expected ',', got 'backgroundImage'
+[26:34:59.864] Server  LOG      ✓ Compiled in 22ms
+[26:34:59.970] Server  LOG     data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhISEBIQFRUVEhIQDw8QDw8PDw8PFRUWFhUSFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0dHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBEQACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAADBAECBQYA/8QANhAAAgECBQMCBQIFAwUAAAAAAQIAAxEEEiExQQVRcWGBBhMiMkJSkRShsdHwI2JyFTOSweH/xAAaAQACAwEBAAAAAAAAAAAAAAABAgADBAUG/8QALREAAgICAwABBAEDBAMBAAAAAAECEQMhBBIxQQUTIlEyI2GRFHGx8EKBoRX/2gAMAwEAAhEDEQA/AE0adNM9IM0zGEYwplGTwQqwnOyaLIsgmUMagZeBk6kmIICIiNkC0xK5MSQ2olJWy6iOBlpZEBQiOOiwWMggqssQ8UKusZMuRQU5chrPZIwQ1FZZESRNSOyRR6kkiY0vC9ZRaMLF7MqsNZDTHwLRa0KYslYRqsZsTqK1qkWy2MTPeprFL1FUPYJ4yKMiNvDAniOjDk0auGw8hknL9DYW0hUL134jDIWrPaSxlGxbE1LiDsWwhT2CSqQLWk7MdwTZc4sgSdhftJhVx1rQ2hJYLDPj/WTRUuNZy1JoyOqxpGjplbQyjRJrQjRcznZUNEqwmVsYCVgsJMVikRABqQlUvBJDSiVFTCWjIBV5ZEZFAZYPQQxkgUAqiWItigdoyHCrTlqFsBWEYeJWmZah6LMIxESsgKB1qkNhjEScQFyK5obDQB6kIUkekIUFG52kC5UbXS+l8mMkYs2c6LD4UCOc+eS2HuBAVlWaEUzsS53hbNEIgqdzqYo8qXgPc2g+SXokCEW2DNQWtBYyTAVUGwkZZFssaAhB3MJXjmyg9N46YGhuk0kvCtoNmmDMgJE5phYQVRxAEpngZKLLEYKGqIlEiuQwsRFdF7x0CjxEsiFICRLEWpBFliDRSoIwUAYxl6WJWe+bLSdQdRoR0gmDol2CqNTt/eXRV6EzZI4oOcvEamMw6UyFte4+7ueZfKCUbPPf/q5JZP7CVSjKE7O7iyqcbFKtOBl6YBhCFMC6QjqQA05BrPAQoDY702jc3jFGWVI6nC0wBHObN2wzNIV0UhIxStW1kLIw+RbF4gWAEVsshB2CNY8CBSJ1AJVIJvzF7bHcE1oIKlzYcw2L10er0RbSAEZsDTuG1kXpY3rQQmWWIc1mhOkkHotGTFaG6bR3sqaDK8x5kSiSZz5ehoXqGAdEIYsgMaSVNlbGqcokVSC3kiBIjNLYoPUurRydSrGOh0iQ0dBohmjIaiowrsCyqSBuQL2lsYt+AeXHBqMpJNh8N0V21c5B2P3nwJohhlL+xh5X1jBg1H8pDo6PQH62/wCRyy9cePycif17O/40v/QhWxSUKw+WjEAHTMLEkaG/niaI4lFa+THm+o5+QqyPRXo1YVc1StuScwJIyn0EaUdUYfu09s12Sl9pHF99x5lH2omvF9Ty4tRl4Z2J6eGXPSYW5VyAPZuZXkxdfDucH60sq/qxr+6MiqCDZt/81vK/DuQlGce0XaA1GkHoA7SDUCLSDUbvSKe0dGLMzoEGkcwsqWkJQJ6/AksihYtVIG8g6f6FKajUmIPKR5qsIhUkGK6Cm0Ko1nMRel73ENUr7R7KlApXqai0FjRjo89YXjWiRg6OWNSPZ1VEJSrRkBx0O0qkYpcRqmZny+CBhObP0gOokrsKZVFgbIxmnKZFbQykqELkxokSKiWJhCCOiEGMhkDYx0OkMUMKSA1TOqHUZVLM39h6mPaXpTkzKOo02AxPVBSem9H7b5GAJKt3FjqG9DNWDI1r4MHK433YuXyjSxGJVrkm4NsrD7s52F+LTowbR5XPhi9tGVWeqCSXDE3s2xAH4mXRjF7Obnk8bW/TFxVByWBLD8lNgwU8sTwPEZovwZodfR7peEq/gwHd31FvTyYrSrZV9zvJ9Taw1BEU/NbPy+hFNfRQNfcyqUmjbx+LGb3tGTVxf8Q/+oSKV7UaSfSXA502E5+ecktHqONxekLSqhp8BSKAUXKsLgJUbOrX4zfiZkx8mtT/AMnQwZJYnUlaf/wyKtwSrAgjQg7ibU7OiqatAHMIx6iLsBICTpHU9NSwEaJzszNEvHszUBrVbSNjqNi9V7C/MA39hGvVY7wdmNGKINbSSxOrsVqYjSVvIWxxlBiCdojyD/bXyUSobkxPubHcFVBVrA7xu6ZW4NFK1S+giyn+h4Rr0sAOYnZjf7HMkzcmbi9MRkRj1ExkUzHabSjJ4VBlac7J6QljKSECBsganKpCsYWVlZaFMJ6OgkhpaiUWvCg0QiAn6rAC5N9AQNbXl+GDyTUUU8rkx4+GWWXx/wAjFPCs5BaqilhdB81g1VeFUX+0Qczphek3+zicfnSzQuUaRh9ZCrmBJzn6WXkEbHTcjvK8WX9HQjNtL9DXRq/zKa5h9oN9NRp2H43953MU7SZwuVhSk0O06WgGa7bqFXNmI4Itp5lsnJO60eclGM3V7PU6Ia+gLc2JYhuxA0hWTVbKo4ZX8P8AuN06d9BbMLkMFAs3/EyuPZbfhswxjOTipXJf2MT4jrhQKQ2YguRcFh+X9pVln8nouBg6x/76LdPohho1i17gXuf00x6W3nKy5b9Oz9xw/wBkbNTp+IpoGF7AXZRkATsQttZngseSXWnZnlyce2/87M3qhLKHZVDggMyG6sp2uOCP/c6GHHLHGn4dDgcnHOThGV/NGYxl51BnplO7XkspyukdPhxYR0c6ewjvCIkK37wJbLXpAq9eG0VpfIF3DCBtESaZmhm1AmdzNSivkKmXLrvF9Fldg8PXA0gDJMurDX1ig2DyjNEbH7Oi9W2lpLBFsqY1hszek9Ietqug7maMmeMDRn5McXpsV/hcopbNqJXHmK6Zkh9QUpVRjJobTembHsYRpRkEoOjTn5GQLeUCkrFbIHpymT2KwwgELiREPGWR9GRS8tQ4QGEADE17K9hm+mxX9Q7TZw5qGS2c76vxnn4jSdU0zj/ifA1BUFVPmEMFdDcl6Z/QO1jwJqkk9rw4eLKlFQb2jU6ljqv+n8wD5mRPmk2uG5B9RMGPGvuOvC5LtH3RofD50QEA66EsRmJ2Cjv68TrQSpWZ80k/DoKgOY3R0bQBPmAnzm3Ky+PnpxeTiXa1uyAh+7KmU6BvqDHv9O/uYzZlUP2lsk1wAQ2YAXyFQGfzn2FvSVzpbR1OHD8aSOT6y2bUbEN9QJIc9xfniY5Rc7PQY/6cI/uyek4wBmyJdlRjSB5a1wD72mDJi/wFvI4/k9M5/o3U8XUrqVquarNuzMR3YMNsoE0LFHVIRTdU/Dq6NQMtVaYI5bQ2Jvra/e02PJ2Tig/TuLLHyVlm9eGce0znrDe6Vh7ASIw5pGozWjtmZKxWrjLRe5asQBsTD2FcBb5tzFciddFaz225iSlQYxsmnop7xF4ST2KX3tEsYrSpd4LD2GTYD1gbK03ZRdTEss8QQKLwOSBui7DxF+5ECTH+l4gU0AE5fK5Eu+jJnXeWxvF44OhseIeNm7TSZVix1JHFE6nyZ6yLuJ3fgNTmfJ4KxlJz5vYAoaVMBdZWwMNTlbexWgoMAtFg0ZINE5o6QUit46GJJjkBIjMwC78R4y6u0GfXo1LaYr1HB4rCAOGPyyb5wubI1vyJ2N9jNkcyyL3Z5zNx8SlUVo5hyzNctc5iSTvcnnzLcOOnoEmkjo8EmVBfMLGxto2Rt/A7zfkh1SZzMOdZZzivDdw6sAGQUnUAh8juyqD/AEMiaZlzwlT1ZairXsqDMfpKl8rleddtvWWSaMGHFOUtqhPqeKf6adggH0gBs/kGZMkvg9FxMMav4Ri42ndbKdtVPc8i3F48cf8ATtDPk1yHGfnwZK1GVgwNjplb9JB58bTDlidSMU1RpjFM91RURn+kuq2Z25UngRIzyTaTYscWPH+T8R0nTcB8unldwSdWtsPQToRgsUXfrOTl53bMpRVRXglV6UA+YNp2mSUbZ38H1aGSPV+mpQTKsKLpPswFStElIdRoTxShtpWxlKjNLt9oktjtL0aoUwFuxksST2ANQbyu7G+KLLVvJ2RU0Hp4GqNflVLcfSZJRn7TKXnxedkHwPS6tR7MrU1GrOykadl7mHHhnOW9ITPy8WKNp9n+kbRwWGW1Mpfa7EnN7niblxINVRz1n5EvzToYTAYYG4QHN9IBJIHjtF/0mNfAj5PKeu3gx8mgguKVPTuLmFcaH6FWXPN05MlK9M6hUF9ftG8s+zFaSFlHJe2/8nFYdiVE8hyY1M7mVLsO4RLhhKsclHImUeNHOYxctRh63nrsM+0EzsYn2imGoSnKwMZEwyexSwlbYGFWVNgYZDKxQl4SFS0dDIkGOgk3jJkLGMQN0qqFqRMrajZXyItwOmxxWtSakxyq62ZuwmPg8t/6uK+Di58X4NnIJ8KFT9NSm2twTew/vPV4M6W3Gjl8iDmqUqK4/ptRV5FtzwfQ+k1PJHKqOdihl48rW0/RPCiqGASoqAk/S1yrE73G15S1Xj0dBZPuK+rsdxQqgDLXpHT/ALZA1HO35DvA3r0GKC7W4GZTou9rEggjXU+0rUE9s2zzuKqK0aadMe2u5tqdBreaIzUV1Xhgljc5929ih+HXcgLlBO5zAD3B3mTPlUV/Gzqcedes1Ol/CtRAzNUT5gsURSpuo+4H1mbFyl9yKqkNyl9zG0ipq/t2nWyU0cZYqF6oY662ExT/ABH7RT0GTG3W3aZ5So9LwJd8abM/EYqV2b2itPE6SNlco7B0awuTImO06NfB9Eq1RmJCKdQzbkeglixSl/Y5+bnY8br1j1P4WpgjNUYj8ha1/BjrjJP0yS+pzd0lZp0MNRp6Iij2uT7maFCKWkYZ5cuTcmyuI6iFNr+ZZGA0OO5C79TzIdTzY+sbrRZHj1JCFByWF9b7n1MnY0y0tDmTTLe1tSeQ3EPZFXZXZavV+lgRe1ot7BGP5JnvmLpccCBsDUrOfopoJ4vkSuR2J7Y7ghvMsntMokc51sWq+RPV8OV4jq8XeM9hzFyMMhtZlbFLCVtgYRJVJgYZYgC95EA1+m9BaoMztlB2HMtTivTLl5ag6SsU6r080XC3uCLgx/8AYu4+f7qsTElmgsxhslF+mrd4nIlUBczqJu1qxRSwFyFNha+s5X0zJBcyLnpPRyeRFvG+pz79VqtqGPbYWtPefao4rnB+oB/1Op+Rub6XAIt2PpoP5ydaCopq0K4li/AHANiB7f1/aVtIvxxaWgdKnbjxmBvtbT15t4lbSNCT/Y6K5Fthz9tu2/7R0R4l8lxjavBHO4vbj/PWMlYqhH9WNJ1GourZTb0H+cyuWJvxjxUP0N4Tr63vUVfpBIKjK1xKFwm3bdhyZYxi6sxcGXa71NLsWCdgZ0lpbOFmyt6iaH8SLWtKJpS8KoLZk4msATac/K9nsvpsHHDsTRWqMFUEk7AbynbdI2zkoq5OkbNH4Vrm2YooO+tyo8S9ceb9OdP6nhV0m2b1H4fw6AAqWPLEm5PeXrBFHPnz88nadIZ6jisqgDwPAl8EU4cfZtsSfGm2kekaFhVi9fFE2IvtaS0h441sXRLnXXf9xBY0nXgekoI20J1EHYrlJkU6WVyB3BHpBZJS7RsdoIfqvyYJSKpNaoGouxPgRXMLdJBWQcxLK1Jow6Q0E8fmf5HcktjWFGszTKpGF8RUvrUz0XAyXjN/El+NC+HluRl0hpZmbELiIxQiSqT2RhAYABae48yWB+HW0sTlUeJzsuZw89OY8faTPYhUrrlc2PDdpbxedcuuQke2KXaJyuIp5WZQb2Nr9507OrCXaKYJjCh0hzo66mZ+W/wKeQ9G5ScB1vOHglUrZhktGD8RdFdWapQOZW1NLZkv+nuJ6zh/W8brHm0/38Mw/YRzb12BswIIsLNoddp24ZY5F2i7QrxqLLDEj/NrXtf94JMsjGhsk5EexIb7Ty1u0q7W6L1j0QuI03001vpY/afHEftQOhDV/axytf8AFv8Ad/eMmK6vR44k9tt+w942xJJdbJoY9W1UA/7rby2D+Tm8r8vxXhrU6gYAMBY8jiFq0Y+iQi9J/mGkgLHcEDgzO1RoxY46b8HMJ8LOzXrtkX9K6u39pk/07lK2zuS+pRxwUcStnQ4TD0qAy01A7sbFj7zRCCj4c7JPLndzZc4wRhVhYn/FkkmEv+1SoVxL5yNYU6LoR6olRqfSSwXoG6kxWwppEU11HvBYJMJQ0uPWC7EmSFvUHiQF1AddrCI2UpWxOjV38xWy2UbLPVi9gKCMzD7CeRzfyOzP0aw41mefhVIz/iKloD2M6306f40aOLLZk0RNs2a2MrKGxGXERsBdZWyMIDAmAb6emZ1EEnSEyOomzjDYzl5dzMuMVq1jlPiPgxqU1Zao7Me87RrPMYQo1OjLpeYubL8TLnZojVhORjRmfhbHtaO4OU6RXE5vqaKwu+pGq9wZ7P6P9Pnii5TdX8HP5XMSfWG2c1iqLIDyAigH1D3tOjODjZdiyrJv/vhstWv04EXzUcTdOdCbkeADMzj/AFtF0W6M1au9hcLcgcPQfVh7HWXh22t03/yvP8hM9rknSwGbcOnB88SyOkVt/r/H6/f/AKEMdiiQUTTgsDoR4gc3VIz5JKTCdN0sOy6yQdIqlFNm1hq2i+JapaKHjtnU4HFKqDYG2p5MqbsuWBlMT1HTSA0QwfsRauW3MlmhQUSCx/8AsHYlI9sNIHJkYamBxFK5NsvveHsBaJQXAgbFei7oBYxBdvQK2pPEjnQ9aCUVIYsfaRTJPcaQOvVubCVuf6JGFK2CFOIFzDUxoIUyqXpm4TYTymf+Z25+jlHeZpeFUvCnWqV0PibODOmTBKpHO0hOpNnQYcSlsVlhEbAEWK2RlxFTAbXQ6Nr1D7TLys/SkvTPnd/iHxTXN5ii7dsSCoXtcEek24dMd6aMkidGzVZVo6YUbnTFss5fPl8GPM9jeH1fxMeKLbSRRN1ER6zjrGy+/pPY/S/pqg/uTWzi8vlV+ETnq9W956ByVGLFjbdimIf+Uyyk7OjCCStjvRqlN6OJok22rE9lG9vW9pizqfeMoGvDkincvDFNVRqt98wvuCd/3muqKnnRWrqtxtfbgRG90JLI5bBUMMza2sO5hboWOKUwtP6Sw9AL+YilRZLHRpUW19B/WM5hw4blbH6Vcm5vFUjc1QbNeTsBBybCSxKtllJteTsRpBE1tB2A6SCKLHzBZW9oYWAra0TcCByJTkVc5pU5/oKXX0Jhl5PHEkd7YmST8RFdr2EV7JD8VYBEsTBSQZTtURU2kb0LH0kQWyMzcEdJ5nkr8juTHqe8yvwrYfFpdPaNx5VIrjqRy+SxI9Z2ZS0dBPRcSuyEiKwBBK5PYCwgTIdJgxamo9Jy+RK8jMcncgdeSA0QN9D4mtfAzMgtOgjUkejphN/CCyzk8x2zBN7EMd1QU7gEXM7f0rgJJZJo5nM5HVUvTEeuTqeeZ6mMqRyI4rdsXdtZRmzKKtnSw4vgXrGJx8ndWHkRqkZzsQTYkX0Nja47H0kb2LVotTQsbKCTwBLLKqd0bWF6dkW9Tc/jwJXL014cRSvU4EqbN0YUI4mkzEFR5ldi5MdvRoU1/wA9Y1jxSS0OUiNIRGNLDYAri4ksVaYWhtrBYJ+hl0kEPVWglKiRRYNFc2Si9SmQLmVv9ixlsPT0taMimVsFiCQwtzvFk6Y0KrYBrq173uLeJGH+UaC6+IrZXoCz33/aLdjUkWzw2RKzK6c08/y/Tu5DUUTCUsbAusWDqRS9M5vGU7OZ1ozuJug7QKRj2SIrZC4iNgLiCwHSUPsXxOXk/mzI/QNWWYlsaIFtjNL9Qz9MY7zeno1fASiLkRm9Ak9G+g+n2nPUe+eMTn5GYlTAhiS895gxdYJHlM/Ik8rMvqWGKEBdQYORJQjZu4n5sqKVhrvPNcnlPLKl4dqGNRQnXM7XA/gYOZ6XwXRatY3AKpzUYWHt3miUbZVGWjfTD0sOtk1b8mO5kZoxYW9mZi65YymT2b4RUULESpsayyyACIeDJYGHQ3gTFGqT62hsVobpmQRkZrGBzob1BA94rnYtUGCbfzilfYYC7xrK7POxYW27xW7IkouyKb5dCfBg7Iko9toq1S7X4tB22K4tRorUtqZGxVdgKVUk6xbHlFLwht4ndBR4mVvMRJmX0xpyeVs7mQ21nPszsaobSvxlcjH6xSsbzoYZ3EvxMz5bZeSIrZCwgIWXiQDOkofaJy5/yZkfoKrLsXoyBHY+JoYWY7rqfM1xejUnoYwS3aNJ0ivI6Rr4urkpkxvpEFPlW/g5XMm44pNGNTztrsO5ntjyqj8hquDzC+Yab3mXm4nkxOMfTpcHIoS2Cp9Hq1NQMq/rYgC3pPOYfp2ZyqSr+52Z8rGlp2GXp+Fo6ufmOP8AxB8TvYcaxRpMyyjkzPykDxfViwsn0jYAaRnI0Y+NGPpmVWvqTK5SNKVCrGVssKmICiQ8lkLKYLAMU21i2BoYvtJYqCirA5k6oJT1iN2B6GKQhTRXJjKVQP6SdkVOLL57bmDtXotX4DFW520i9gtaJrAG1uDFbFi2ij7WEDdAV2UEEsiSCQB2lDy3pBPNpvEqTZLBGt2EfqQy+nnWc/NtHdn4dBT2nOkZWM0DK5CSFurUrqZfhnTGxvZhCazUWAkITBYSUGo8yPwV+HSUT9I8TmT9Mr9B1Jdi9CgU0SGZlVx9RmiD0XxY301dbxcsqRXlfwO9TIFO7A2v7Tf9BxN5pTflHJ58v6TRhtir8+09fZwlA9SxRBiyL8Sp7BYzq1ZiVZyANgNBaYJZmnTO5i4+PqpIU+bE72aEjxqwdiUUZ4LGBs0DZCN4lkJEFkJDQWQutSBsFB1bvEtgGqWkFisOhksRoIlTa0lgaCqbamC6EashqhJgb2SqQXPcCLJ0V1slDK5ZEgUeErlkb0gEHzB1b9JZVqnaOoUK2AqGPRE7RKiPSEMvC6Gcme0ehkdBhzpOdP0zy9GE3lbFasviVusEJUxE6ZzlZLMROlF2jXF2RCMTaAhKbjzA/AS8Oio/aJzpemVlHluJ7CiiUmY2UE+Jrjink1BWRyUVthU+HmY5nYKO3M63H+mTr+o6KZc6K1FWxymMPRGgzn950ocPBD4v/cpf+oze6Qj1PqJqKUygL2mjuo/xHhw4r+Ts5LEgobH2PcS6GZSRzs3FeKX9iKdXvtwex7GP3op6X4RitRc7j+YmbkL/AMjocHI/4sVzzKmdFonPDYpDPJYaPXksB4PFslE5otho8BAAKNILIMbiLYoWm+wMFgaCl+0FihlYSWK9hQxMVyFZdYksiECLM8pt+ClriFRv0DIL30llJMRs8RHTFsE8YnwCfWGrInQCzd4BuyFqW4nLfh3WbuDbSYMq2UTQ2JSxAu4ieMRoxepUrG83YZaovxsTEuLiZCEpuPMD8Fl4dJhKRZRb95lxcbJmnUUZJzUfRxcIi61DPQcX6RCG8m2UPLOTqCK1OqqulNR54nVj0xqooK4kpO5szsRjnb7ifHEWWU1wwQj4KvUlbyFnUWqVZU8geohiSDuIiyNO0CWNSVMy6lMqdNRyOZqhyk/5HPycOv4ghiTqp17dwI+TJcaFxYnGV1sgmZ0zcezRgEXhAWEWwFssASQdYpC94LIXQQNgDo3aI2BhFgsUMoiuQoUNFcwBVMplK2IEBEHUSyweOkkK2XAksrvRbaGxfSrv2jWRL9gc25MaLGaBq19BGsjSQZaUYrMxZyGehNjANMeVFMzQEzsrCIYrAxLqFK4l+GWxoMx7TYX2ekCjS6V0/ObnbgTdxOJ9zcvDNmy9dI28RiflrZd/6TsxhDGqSKMeJ5HbMWriGY3Yk/0iPIdCONRWgbVZVKY3UE1aVuYVEEakrcw0CdorkChWq8nYApVaOhBd5YhGDMsFZAMZMVlryALFu0FkLhorZD0WyBBFbAERYrkAMhiOQrLhojkwBBFAEVoKFYVTJ4KwgG0HYrC32gsUkmFC+EgHmMRFxLBGL1VuYF+x06QwlMARrRW3bLoo5k7oKizFE5Z3zSwDTPlRVJGopmRlYRTA0BoHiVuIYMVGHXWxM3xejSvCgEZK2Szq+nJlT2no+PHrBUc7I7kZuPqawZJM6GGKozyZncjQDZpW5BAs0RyCULypyACd5OwoB2jpii1Qy6LEYBjLUIyhjisi0IC0gC6RWwF1WK5EZcRLAXAi2yFwYtClgYoC4aAUIsDYGEUwWKGWKIwwEAoVBGoRkiREqy4F94wpN7CRyoKjbBg+8VTY3UKATGUWwaRf5MtWEdWf/9k=
+[26:34:59.970] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:35:01.309] Server  LOG     data:image/jpeg;base64,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
+[26:35:01.309] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:36:42.784] Server  LOG     data:image/jpeg;base64,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
+[26:36:42.784] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:36:44.173] Browser ERROR   ./app/page.tsx:67:5
+Parsing ecmascript source code failed
+  65 |
+  66 |   return (
+> 67 |     <
+     |     ^
+  68 |     <div>
+  69 |       <h1>I love:</h1>
+  70 |       <div>{saying}</div>
+
+Expression expected
+[26:36:46.600] Browser ERROR   ./app/page.tsx:69:7
+Parsing ecmascript source code failed
+  67 |     <div 
+  68 |     <div>
+> 69 |       <h1>I love:</h1>
+     |       ^
+  70 |       <div>{saying}</div>
+  71 |     </div>
+  72 |   );
+
+Expression expected
+[26:36:48.758] Browser ERROR   ./app/page.tsx:68:5
+Parsing ecmascript source code failed
+  66 |   return (
+  67 |     <div style={ sectionStyle }
+> 68 |     <div>
+     |     ^
+  69 |       <h1>I love:</h1>
+  70 |       <div>{saying}</div>
+  71 |     </div>
+
+Expression expected
+[26:36:48.758] Browser ERROR   ./app/page.tsx:70:21
+Parsing ecmascript source code failed
+  68 |     <div>
+  69 |       <h1>I love:</h1>
+> 70 |       <div>{saying}</div>
+     |                     ^^^^^
+  71 |     </div>
+  72 |   );
+  73 | }
+
+Unterminated regexp literal
+[26:36:50.366] Browser ERROR   ./app/page.tsx:70:21
+Parsing ecmascript source code failed
+  68 |     <div>
+  69 |       <h1>I love:</h1>
+> 70 |       <div>{saying}</div>
+     |                     ^^^^^
+  71 |     </div>
+  72 |   );
+  73 | }
+
+Unterminated regexp literal
+[26:36:51.933] Browser ERROR   ./app/page.tsx:73:1
+Parsing ecmascript source code failed
+  71 |     </div>
+  72 |   );
+> 73 | }
+     | ^
+  74 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[26:36:55.289] Server  LOG     data:image/jpeg;base64,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
+[26:36:55.289] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:40:10.224] Server  LOG      ✓ Compiled in 98ms
+[26:40:10.396] Server  LOG     =
+[26:40:10.396] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:40:15.190] Server  LOG     ./dino.png
+[26:40:15.190] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:40:30.428] Server  LOG     dino.png
+[26:40:30.428] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:40:34.472] Server  LOG     <div styleName={} />dino.png
+[26:40:34.472] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:40:35.565] Server  LOG     ../dino.png
+[26:40:35.565] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:40:42.063] Server  LOG     ../app/dino.png
+[26:40:42.063] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:41:05.350] Server  LOG     ./dino.png
+[26:41:05.350] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:41:57.249] Server  LOG     /Users/lauratrebe/fun/alecs_app/app/dino.png
+[26:41:57.249] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:42:12.948] Server  LOG     app/dino.png
+[26:42:12.948] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:42:24.351] Server  LOG     app/dino.png
+[26:42:24.351] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:42:24.729] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:43:17.748] Browser ERROR   ./app/page.tsx:61:32
+Parsing ecmascript source code failed
+  59 |   backgroundRepeat: "no-repeat",
+  60 |   backgroundSize: "cover",
+> 61 |   backgroundImage: {background})`,
+     |                                ^
+  62 | };
+  63 | 
+  64 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+
+Expected ',', got ')'
+[26:43:21.747] Browser ERROR   ./app/page.tsx:62:2
+Parsing ecmascript source code failed
+  60 |   backgroundSize: "cover",
+  61 |   backgroundImage: {background,
+> 62 | };
+     |  ^
+  63 |
+  64 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+  65 |
+
+Expected ',', got ';'
+[26:43:22.919] Server  LOG     app/dino.png
+[26:43:22.919] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:43:29.018] Browser ERROR   ./app/page.tsx:61:32
+Parsing ecmascript source code failed
+  59 |   backgroundRepeat: "no-repeat",
+  60 |   backgroundSize: "cover",
+> 61 |   backgroundImage: {background}`,
+     |                                ^^
+> 62 | };
+     | ^^
+> 63 | 
+     | ^^
+> 64 | console.log("You found this? good job techie babe :) my fave curious person ever as always")
+     | ^^
+> 65 | 
+     | ^^
+> 66 |   return (
+     | ^^
+> 67 |     <div style={ sectionStyle }>
+     | ^^
+> 68 |     <div>
+     | ^^
+> 69 |       <h1>I love:</h1>
+     | ^^
+> 70 |       <div>{saying}</div>
+     | ^^
+> 71 |     </div>
+     | ^^
+> 72 |     </div>
+     | ^^
+> 73 |   );
+     | ^^
+> 74 | }
+     | ^^
+> 75 | 
+     | ^
+
+Unterminated template
+[26:43:32.097] Server  LOG     app/dino.png
+[26:43:32.098] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:43:35.464] Server  LOG     /dino.png
+[26:43:35.464] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:43:36.050] Server  LOG     ./dino.png
+[26:43:36.051] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:43:38.594] Server  LOG     dino.png
+[26:43:38.595] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:44:11.742] Server  LOG     app/dino.png
+[26:44:11.742] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:44:55.067] Browser ERROR   ./app/page.tsx:56:13
+Parsing ecmascript source code failed
+  54 | console.log(background)
+  55 | const sectionStyle = {
+> 56 |   text-align: center,
+     |             ^
+  57 |   color: '#940909',
+  58 |   backgroundRepeat: "no-repeat",
+  59 |   backgroundSize: "cover",
+
+Expected a semicolon
+[26:44:55.067] Browser ERROR   ./app/page.tsx:56:7
+Parsing ecmascript source code failed
+  54 | console.log(background)
+  55 | const sectionStyle = {
+> 56 |   text-align: center,
+     |       ^
+  57 |   color: '#940909',
+  58 |   backgroundRepeat: "no-repeat",
+  59 |   backgroundSize: "cover",
+
+Expression expected
+[26:44:57.051] Server  LOG     app/dino.png
+[26:44:57.057] Server  ERROR    ⨯ ReferenceError: center is not defined
+[26:44:57.179] Browser ERROR   uncaughtError: ReferenceError: center is not defined
+[26:44:58.734] Server  LOG     app/dino.png
+[26:44:58.734] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:44:59.059] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:45:23.343] Browser ERROR   ./app/page.tsx:57:13
+Parsing ecmascript source code failed
+  55 | const sectionStyle = {
+  56 |   textAlign: 'center',
+> 57 |   margin-top: '100px'
+     |             ^
+  58 |   color: '#940909',
+  59 |   backgroundRepeat: "no-repeat",
+  60 |   backgroundSize: "cover",
+
+Expected a semicolon
+[26:45:23.343] Browser ERROR   ./app/page.tsx:57:9
+Parsing ecmascript source code failed
+  55 | const sectionStyle = {
+  56 |   textAlign: 'center',
+> 57 |   margin-top: '100px'
+     |         ^
+  58 |   color: '#940909',
+  59 |   backgroundRepeat: "no-repeat",
+  60 |   backgroundSize: "cover",
+
+Expression expected
+[26:45:24.789] Browser ERROR   ./app/page.tsx:57:13
+Parsing ecmascript source code failed
+  55 | const sectionStyle = {
+  56 |   textAlign: 'center',
+> 57 |   margin-top: '100px',
+     |             ^
+  58 |   color: '#940909',
+  59 |   backgroundRepeat: "no-repeat",
+  60 |   backgroundSize: "cover",
+
+Expected a semicolon
+[26:45:24.789] Browser ERROR   ./app/page.tsx:57:9
+Parsing ecmascript source code failed
+  55 | const sectionStyle = {
+  56 |   textAlign: 'center',
+> 57 |   margin-top: '100px',
+     |         ^
+  58 |   color: '#940909',
+  59 |   backgroundRepeat: "no-repeat",
+  60 |   backgroundSize: "cover",
+
+Expression expected
+[26:45:27.404] Server  LOG     app/dino.png
+[26:45:27.404] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:45:34.024] Server  LOG     app/dino.png
+[26:45:34.024] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:45:43.706] Server  LOG     app/dino.png
+[26:45:43.706] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:45:52.146] Browser ERROR   ./app/page.tsx:69:16
+Parsing ecmascript source code failed
+  67 |     <div style={ sectionStyle }>
+  68 |     <div>
+> 69 |       <h1 style=>I love</h1>
+     |                ^^
+  70 |       <div>{saying}</div>
+  71 |     </div>
+  72 |     </div>
+
+Expected '</', got '=>'
+[26:45:54.131] Server  LOG      ✓ Compiled in 22ms
+[26:45:54.243] Server  LOG     app/dino.png
+[26:45:54.243] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:45:56.713] Browser ERROR   ./app/page.tsx:69:23
+Parsing ecmascript source code failed
+  67 |     <div style={ sectionStyle }>
+  68 |     <div>
+> 69 |       <h1 style={{font-fa}}>I love</h1>
+     |                       ^
+  70 |       <div>{saying}</div>
+  71 |     </div>
+  72 |     </div>
+
+Expected a semicolon
+[26:45:56.713] Browser ERROR   ./app/page.tsx:69:23
+Parsing ecmascript source code failed
+  67 |     <div style={ sectionStyle }>
+  68 |     <div>
+> 69 |       <h1 style={{font-fa}}>I love</h1>
+     |                       ^
+  70 |       <div>{saying}</div>
+  71 |     </div>
+  72 |     </div>
+
+Expression expected
+[26:45:58.606] Server  LOG     app/dino.png
+[26:45:58.606] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:45:58.610] Server  ERROR    ⨯ ReferenceError: font is not defined
+[26:45:58.732] Browser ERROR   uncaughtError: ReferenceError: font is not defined
+[26:46:01.846] Server  LOG     app/dino.png
+[26:46:01.846] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:46:02.177] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:47:48.053] Server  LOG     app/dino.png
+[26:47:48.053] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:47:48.927] Server  LOG     app/dino.png
+[26:47:48.927] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:48:01.189] Server  LOG      ✓ Compiled in 42ms
+[26:48:01.281] Server  LOG     app/dino.png
+[26:48:01.281] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:48:04.990] Server  LOG     app/dino.png
+[26:48:04.990] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:48:18.335] Browser ERROR   ./app/page.tsx:69:16
+Parsing ecmascript source code failed
+  67 |     <div style={ sectionStyle }>
+  68 |     <div>
+> 69 |       <h1 style=>I love</h1>
+     |                ^^
+  70 |       <div>{saying}</div>
+  71 |     </div>
+  72 |     </div>
+
+Expected '</', got '=>'
+[26:48:19.610] Server  LOG     app/dino.png
+[26:48:19.610] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:48:22.860] Server  LOG     app/dino.png
+[26:48:22.860] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:48:37.524] Server  LOG     app/dino.png
+[26:48:37.524] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:48:40.021] Server  LOG     app/dino.png
+[26:48:40.022] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:48:40.028] Server  ERROR    ⨯ ReferenceError: fontw is not defined
+[26:48:40.154] Browser ERROR   uncaughtError: ReferenceError: fontw is not defined
+[26:48:42.043] Server  LOG     app/dino.png
+[26:48:42.043] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:48:42.047] Server  ERROR    ⨯ ReferenceError: fontWeight is not defined
+[26:48:42.412] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:48:42.412] Browser ERROR   uncaughtError: ReferenceError: fontWeight is not defined
+[26:48:43.378] Browser ERROR   ./app/page.tsx:69:30
+Parsing ecmascript source code failed
+  67 |     <div style={ sectionStyle }>
+  68 |     <div>
+> 69 |       <h1 style={{fontWeight=}}>I love</h1>
+     |                              ^
+  70 |       <div>{saying}</div>
+  71 |     </div>
+  72 |     </div>
+
+Expected '</', got '}'
+[26:48:45.547] Server  LOG      ✓ Compiled in 22ms
+[26:48:45.641] Server  LOG     app/dino.png
+[26:48:45.641] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:48:45.645] Server  ERROR    ⨯ ReferenceError: bold is not defined
+[26:48:45.956] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:48:45.956] Browser ERROR   uncaughtError: ReferenceError: bold is not defined
+[26:48:48.620] Server  LOG      ✓ Compiled in 34ms
+[26:48:48.738] Server  LOG     app/dino.png
+[26:48:48.739] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:48:49.155] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:49:08.494] Server  LOG      ✓ Compiled in 43ms
+[26:49:08.647] Server  LOG     app/dino.png
+[26:49:08.647] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:49:08.660] Server  ERROR    ⨯ ReferenceError: textDecoration is not defined
+[26:49:08.793] Browser ERROR   uncaughtError: ReferenceError: textDecoration is not defined
+[26:49:11.551] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[26:49:11.573] Server  LOG      ✓ Compiled in 70ms
+[26:49:11.675] Server  LOG     app/dino.png
+[26:49:11.675] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:49:12.116] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:49:20.752] Server  LOG     app/dino.png
+[26:49:20.752] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:49:20.756] Server  ERROR    ⨯ ReferenceError: margin is not defined
+[26:49:20.888] Browser ERROR   uncaughtError: ReferenceError: margin is not defined
+[26:49:22.643] Server  LOG      ✓ Compiled in 32ms
+[26:49:22.773] Server  LOG     app/dino.png
+[26:49:22.773] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:49:22.777] Server  ERROR    ⨯ ReferenceError: marginB is not defined
+[26:49:23.243] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:49:23.243] Browser ERROR   uncaughtError: ReferenceError: marginB is not defined
+[26:49:27.513] Server  LOG     app/dino.png
+[26:49:27.513] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:49:27.902] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:49:47.033] Server  LOG     app/dino.png
+[26:49:47.033] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:49:48.178] Server  LOG     app/dino.png
+[26:49:48.178] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:49:49.714] Server  LOG     app/dino.png
+[26:49:49.714] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:49:51.157] Server  LOG     gzero.jpg
+[26:49:51.157] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:50:02.689] Server  LOG      ✓ Compiled in 15ms
+[26:50:02.783] Server  LOG     gzero.jpg
+[26:50:02.783] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:50:04.393] Server  LOG     ./gzero.jpg
+[26:50:04.393] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:51:39.986] Server  LOG     {}
+[26:51:39.987] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:51:57.003] Server  LOG     ./gzero.jpg
+[26:51:57.003] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:52:33.961] Server  LOG     /gzero.jpg
+[26:52:33.962] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:54:09.493] Server  LOG     /gzero.jpg
+[26:54:09.493] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:54:10.073] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[26:54:28.454] Server  LOG      ✓ Compiled in 182ms
+[26:54:28.641] Server  LOG     /gzero.jpg
+[26:54:28.641] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:54:35.628] Server  LOG     /gzero.jpg
+[26:54:35.628] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:54:37.937] Server  LOG     /gzero.jpg
+[26:54:37.937] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:54:42.011] Server  LOG     /gzero.jpg
+[26:54:42.011] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:54:44.580] Server  LOG     /gzero.jpg
+[26:54:44.581] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:54:48.666] Server  LOG      ✓ Compiled in 96ms
+[26:54:48.786] Server  LOG     /gzero.jpg
+[26:54:48.786] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:54:50.554] Server  LOG     /gzero.jpg
+[26:54:50.554] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:54:54.718] Server  LOG      ✓ Compiled in 49ms
+[26:54:54.816] Server  LOG     /gzero.jpg
+[26:54:54.816] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:55:18.780] Server  LOG      ✓ Compiled in 118ms
+[26:55:18.914] Server  LOG     /gzero.jpg
+[26:55:18.914] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:55:19.981] Server  LOG     dino.png
+[26:55:19.981] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:55:24.269] Server  LOG      ✓ Compiled in 37ms
+[26:55:24.366] Server  LOG     /dino.png
+[26:55:24.366] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:56:01.217] Server  LOG      ✓ Compiled in 144ms
+[26:56:05.291] Server  LOG      ✓ Compiled in 131ms
+[26:56:15.721] Server  LOG      ✓ Compiled in 110ms
+[26:56:19.579] Server  LOG      ✓ Compiled in 117ms
+[26:56:22.553] Server  LOG      ✓ Compiled in 6ms
+[26:56:46.162] Server  LOG      ✓ Compiled in 83ms
+[26:56:46.299] Server  LOG     /dino.png
+[26:56:46.300] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:56:48.683] Server  LOG     /dino.png
+[26:56:48.683] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:56:55.875] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[26:57:42.858] Server  LOG      ✓ Compiled in 47ms
+[26:57:49.999] Server  LOG      ✓ Compiled in 18ms
+[26:57:51.799] Server  LOG      ✓ Compiled in 7ms
+[26:57:55.103] Server  LOG      ✓ Compiled in 8ms
+[26:59:49.909] Server  LOG      ✓ Compiled in 26ms
+[26:59:50.007] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:01:21.629] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:03:29.304] Browser ERROR   ./app/page.tsx:57:12
+Parsing ecmascript source code failed
+  55 |   textAlign: 'center',
+  56 |   color: '#940909',
+> 57 |   margin: 0pageXOffset,
+     |            ^
+  58 |   fontWeight: 'bold', textDecoration: 'underline', marginBottom: '10px'
+  59 | };
+  60 |
+
+Identifier cannot follow number
+[27:03:33.987] Browser ERROR   ./app/page.tsx:58:3
+Parsing ecmascript source code failed
+  56 |   color: '#940909',
+  57 |   margin: '0pageXOffset,'
+> 58 |   fontWeight: 'bold', textDecoration: 'underline', marginBottom: '10px'
+     |   ^^^^^^^^^^
+  59 | };
+  60 |
+  61 | const backgroundStyle = {
+
+Expected ',', got 'fontWeight'
+[27:03:35.791] Server  LOG      ✓ Compiled in 63ms
+[27:03:35.917] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:03:36.047] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating margin marginBottom
+[27:04:08.867] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:04:08.990] Browser ERROR   %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Removing marginBottom margin
+[27:04:18.927] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:04:19.127] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[27:04:38.664] Browser ERROR   ./app/page.tsx:62:14
+Parsing ecmascript source code failed
+  60 |
+  61 | const backgroundStyle = {
+> 62 |   height: 100v
+     |              ^
+  63 |   backgroundRepeat: "no-repeat",
+  64 |   backgroundSize: "cover",
+  65 |   backgroundImage: `url(${background})`,
+
+Identifier cannot follow number
+[27:04:39.904] Browser ERROR   ./app/page.tsx:62:14
+Parsing ecmascript source code failed
+  60 |
+  61 | const backgroundStyle = {
+> 62 |   height: 100validateHeaderName,
+     |              ^
+  63 |   backgroundRepeat: "no-repeat",
+  64 |   backgroundSize: "cover",
+  65 |   backgroundImage: `url(${background})`,
+
+Identifier cannot follow number
+[27:04:43.732] Browser ERROR   ./app/page.tsx:63:3
+Parsing ecmascript source code failed
+  61 | const backgroundStyle = {
+  62 |   height: '100vh'
+> 63 |   backgroundRepeat: "no-repeat",
+     |   ^^^^^^^^^^^^^^^^
+  64 |   backgroundSize: "cover",
+  65 |   backgroundImage: `url(${background})`,
+  66 |   
+
+Expected ',', got 'backgroundRepeat'
+[27:04:44.764] Server  LOG      ✓ Compiled in 10ms
+[27:04:44.914] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:05:10.244] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:05:12.347] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:05:37.821] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:05:52.649] Browser ERROR   ./app/page.tsx:57:3
+Parsing ecmascript source code failed
+  55 |   display: 'flex',
+  56 |   justifyContents: ''
+> 57 |   textAlign: 'center',
+     |   ^^^^^^^^^
+  58 |   color: '#940909',
+  59 |   margin: '0px',
+  60 |   fontWeight: 'bold', textDecoration: 'underline',
+
+Expected ',', got 'textAlign'
+[27:05:54.625] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:06:16.912] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:06:19.875] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:06:56.668] Browser ERROR   ./app/page.tsx:59:3
+Parsing ecmascript source code failed
+  57 |   textAlign: 'center',
+  58 |   flexDirection: ''
+> 59 |   color: '#940909',
+     |   ^^^^^
+  60 |   margin: '0px',
+  61 |   fontWeight: 'bold', textDecoration: 'underline',
+  62 | };
+
+Expected ',', got 'color'
+[27:06:59.294] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:08:04.837] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:08:12.828] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:08:22.872] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:08:36.331] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:08:37.854] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:08:41.796] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:08:44.279] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:09:23.855] Server  LOG      ✓ Compiled in 23ms
+[27:09:24.007] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:10:33.396] Browser ERROR   ./app/page.tsx:58:3
+Parsing ecmascript source code failed
+  56 |   justifyContents: 'center',
+  57 |   backgroundPosition: 'center'
+> 58 |   textAlign: 'center',
+     |   ^^^^^^^^^
+  59 |   flexDirection: 'column',
+  60 |   color: 'white',
+  61 |   margin: '0px',
+
+Expected ',', got 'textAlign'
+[27:10:35.524] Browser ERROR   ./app/page.tsx:58:3
+Parsing ecmascript source code failed
+  56 |   justifyContents: 'center',
+  57 |   backgroundPosition: 'center center'
+> 58 |   textAlign: 'center',
+     |   ^^^^^^^^^
+  59 |   flexDirection: 'column',
+  60 |   color: 'white',
+  61 |   margin: '0px',
+
+Expected ',', got 'textAlign'
+[27:10:36.918] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:10:40.149] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:10:48.989] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:11:42.844] Server  LOG      ✓ Compiled in 20ms
+[27:11:42.990] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:11:50.685] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:11:52.857] Server  LOG      ✓ Compiled in 16ms
+[27:11:53.018] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:11:54.487] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:11:56.151] Browser ERROR   ./app/page.tsx:44:3
+Parsing ecmascript source code failed
+  42 |   "/hill.png",
+  43 |   "/hotelkiss.JPEG"
+> 44 |   "/hotel.JPEG",
+     |   ^^^^^^^^^^^^^
+  45 |   "/cabinchairs.png",
+  46 |   "/gzero.jpg",
+  47 |   "/dino.png",
+
+Expected ',', got 'string literal (/hotel.JPEG, "/hotel.JPEG")'
+[27:11:57.702] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:12:04.706] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:12:29.572] Server  LOG      ✓ Compiled in 24ms
+[27:12:29.661] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:12:32.663] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:12:45.130] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:12:53.978] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:12:54.952] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:13:07.022] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:13:08.653] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:13:27.340] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:13:28.790] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:14:02.033] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
+[27:14:06.131] Server  LOG     You found this? good job techie babe :) my fave curious person ever as always
