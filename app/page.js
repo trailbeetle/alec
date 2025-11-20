@@ -39,10 +39,10 @@ const sayings = [
 
 const photos = [
   "/cabin.png",
-  "/hotel.JPEG",
   "/hotelkiss.JPEG",
   "/dino.png",
   "/hill.png",
+    "/hotel.JPEG",
   "/cabinchairs.png",
   "/gzero.jpg",
 ]
