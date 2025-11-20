@@ -4,7 +4,6 @@ export default function Home() {
 const sayings = [
   "when you do that little move that imitates the shy/pleased emoji",
   "the way you start to randomly massage my arms or neck when we are just sitting around doing nothing otherwise",
-  "your music taste",
   "your organization style that mirrors mine (in ideal circumstances) that makes me confident we would be a good match living together",
     "your willingness to meet me where i am at if i am having a bad day",
   "your perfect blend of challenging me while still validating and soothing me if im having trouble with an area of my life",
@@ -26,6 +25,7 @@ const sayings = [
   "the way your voice softens when you tell me something sweet",
   "your attentiveness to my nuances and genuine interest in figuring them out",
     "the way you kiss me 50x whenever you get on a roll",
+    "your music taste",
   "the way you take care of your skin and your body, because you are embodied and care about how you feel",
   "your beautiful doe eyes",
   "the way you keep me on my toes (always one upping me in jokes and i love it)",
