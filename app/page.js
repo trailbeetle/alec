@@ -2,6 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
 const sayings = [
+  "",
   "when you do that little move that imitates the shy/pleased emoji",
   "the way you start to randomly massage my arms or neck when we are just sitting around doing nothing otherwise",
   "your organization style that mirrors mine (in ideal circumstances) that makes me confident we would be a good match living together",
@@ -24,10 +25,10 @@ const sayings = [
   "the way your shoulders look when youre reaching up for something or laying down (and all the rest of the time)",
   "the way your voice softens when you tell me something sweet",
    "the way you kiss me 50x whenever you get on a roll",
-  "your attentiveness to my nuances and genuine interest in figuring them out",
-    "your music taste",
-  "the way you take care of your skin and your body, because you are embodied and care about how you feel",
   "your beautiful doe eyes",
+   "your music taste",
+  "your attentiveness to my nuances and genuine interest in figuring them out",
+  "the way you take care of your skin and your body, because you are embodied and care about how you feel",
   "the way you keep me on my toes (always one upping me in jokes and i love it)",
   "the silky softness of your hair, especially the part that lays over your forehead",
   "the way you do little things to let me know you're thinking of me, like writing me a little note or bringing me an energy drink",
