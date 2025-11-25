@@ -26,8 +26,8 @@ const sayings = [
   "the way your voice softens when you tell me something sweet",
    "the way you kiss me 50x whenever you get on a roll",
   "your beautiful doe eyes",
+     "your music taste",
   "your attentiveness to my nuances and genuine interest in figuring them out",
-   "your music taste",
   "the way you take care of your skin and your body, because you are embodied and care about how you feel",
   "the way you keep me on my toes (always one upping me in jokes and i love it)",
   "the silky softness of your hair, especially the part that lays over your forehead",
@@ -40,10 +40,10 @@ const sayings = [
 
 const photos = [
   "/cabin.png",
+    "/dino.png",
   "/hotelkiss.JPEG",
-  "/dino.png",
   "/hill.png",
-    "/hotel.JPEG",
+  "/hotel.JPEG",
   "/cabinchairs.png",
   "/gzero.jpg",
 ]
