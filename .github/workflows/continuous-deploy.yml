@@ -2,7 +2,7 @@ name: CD
 on:
   workflow_dispatch:
   schedule:
-    - cron: '05 12 * * *'
+    - cron: '05 01 * * *'
 
 
 jobs:
