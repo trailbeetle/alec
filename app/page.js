@@ -6,7 +6,7 @@ const sayings = [
   "when you do that little move that imitates the shy/pleased emoji",
   "the way you start to randomly massage my arms or neck when we are just sitting around doing nothing otherwise",
 "That you remember so many little details of me. (“…but you don’t like people in your art, that’s why you don’t like it” example)",
-"Your face, your whole face, including your eyes and their brows"
+"Your face, your whole face, including your eyes and their brows",
   "your perfect blend of challenging me while still validating and soothing me if im having trouble with an area of my life",
   "your constant confidence in me and my abilities",
     "the way you always have something nice to say about my cooking no matter how many times i do it for you",
