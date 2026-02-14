@@ -34,7 +34,7 @@ const photos = [
   "/hill.png",
   "/hotel.JPEG",
   "/cabinchairs.png",
-  "/gzero.jpg",
+  "/IMG_8373.jpeg"
 ]
 
 const date = new Date();
