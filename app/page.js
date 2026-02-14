@@ -16,7 +16,7 @@ const sayings = [
 "imagining living with you",
 "being inspired by you to engage in art and better myself in general",
 "taking care of you",
-"so much that i hope i get to spend the rest of my life with you. I love who I am with you, and every aspect of your being. You are a beautiful soul and I am grateful every day that we choose to love each other. I deeply hope that our values continue to align and that I will one day get to call you my husband, for real. ",
+"so much so that i hope i get to spend the rest of my life with you. I love every aspect of your being, and who i get to be when i am with you. You are a beautiful soul and I am grateful every day that we get to love each other, and that I wake up every day as excited about you as I was the first week we met. I deeply hope that I will one day get to call you my husband, for real. ",
 "feeling like you are more than enough to satisfy my needs - my friendships ending werent even a blip because you support me (but in a healthy way)",
 "the way we always bring little gifts back for each other when we go out (vacations, the grocery store, etc)",
 "going out with you and being seen with you by everybody",
